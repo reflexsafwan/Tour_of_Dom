@@ -99,3 +99,15 @@
 // console.log(myLi);
 // myLi.innerText = "Five";
 // parentContainer2.appendChild(myLi);
+
+// const section = document.getElementById("section-container");
+// const div = document.createElement("div");
+// const h1 = document.createElement("h1");
+// h1.innerText = "exploring dynamic js";
+// div.appendChild(h1);
+// section.appendChild(div);
+
+// set attribute
+document.getElementById("attribute").setAttribute("class", "attr");
+const myAttribute = document.getElementById("attribute").getAttribute("class");
+console.log(myAttribute);
