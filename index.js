@@ -16,7 +16,7 @@
 // const classList = document.getElementsByClassName("test");
 // console.log(classList);
 // for (const value of classList) {
-//   //   console.log(value);
+//   console.log(value);
 //   value.style.backgroundColor = "blue";
 //   value.style.padding = " 20px";
 // }
@@ -108,6 +108,6 @@
 // section.appendChild(div);
 
 // set attribute
-document.getElementById("attribute").setAttribute("class", "attr");
-const myAttribute = document.getElementById("attribute").getAttribute("class");
-console.log(myAttribute);
+// document.getElementById("attribute").setAttribute("class", "attr");
+// const myAttribute = document.getElementById("attribute").getAttribute("class");
+// console.log(myAttribute);
